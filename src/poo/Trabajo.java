@@ -4,7 +4,7 @@ public class Trabajo {
 
 	public static void main(String[] args) {
 		
-		Empleado worker = new Empleado("Carmen", "Castro Román", 200000, 0, 0);
+		Empleado worker = new Empleado("Carmen", "Castro Román", 20000000, 0, 0);
 		
 		System.out.println("La candidata se llama " + worker.getNombre()  + " " 
 		+ worker.getApellido() + " ha entregado: " 
@@ -18,8 +18,8 @@ public class Trabajo {
 
 	 class Empleado{
 		 
-		 String nombre;
-		 String apellido;
+		 final String nombre;
+		 final String apellido;
 		 int curriculumsEntregados;
 		 int anhosExperiencia;
 		 int entrevistasRealizadas;
